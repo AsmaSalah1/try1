@@ -1,0 +1,81 @@
+@media screen and (min-width:660px) and (max-width:911px) {
+    header nav ul , header .auth{
+     margin: auto;
+     width: fit-content;
+    }
+    header .row {
+        gap: 1px;}
+     
+} 
+@media screen and  (max-width:1088px) {
+   
+    .Benefit{
+   width: calc( ( 100% - 20px ) / 2);
+       }
+   }
+   @media screen and  (max-width:760px) {
+    .countaner{
+        width: calc( 100% -  32px);
+    }
+    .Benefit{
+   width: 100%;
+       }
+       .Testimonials .Testimonial{
+        width: 100%;          
+}
+.Courses .Course{
+    width: 100%;
+}
+.cards .card{
+    width: 100%;
+
+}
+footer .row{
+flex-wrap: wrap;}
+
+   }
+@media screen and  (max-width:659px) {
+    header nav{
+display: none;   
+ }
+ header .auth svg{
+ 
+  display: block;
+}
+header .row {
+    gap: 1px;}
+
+}
+
+@media screen and  (min-width:1430px) {
+    .countaner{
+        width: calc( 100% -  320px);
+    }
+}
+/* @media screen and  (max-width:816px) {
+    .Courses .Course{
+        width: 100%;
+    }
+   } */
+
+@media screen and  (max-width:641px) {
+    .icon {
+        gap: 10px;
+
+    }
+    .icon img{
+        padding: 10px 15px;
+    
+    }
+}
+
+@media screen  and (max-width:1117px) {
+.Benefits .Benefits-one a , .Courses .Benefits-one a,
+.Testimonials .our-Testimonials a {
+    margin-top: 20px;
+}
+.Pricing .Price .auth-Pricing {
+    margin: auto;
+    margin-top: 20px;}
+}
+
